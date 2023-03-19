@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Habit - Calculando o IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav id="menu-h">
+        <ul>
+            <li>
+                <a href="index.html">
+                    Página Inicial
+                </a>
+            </li>
+
+            <li><a href="receitas.html">Receitas</a></li>
+            
+            <li><a href="imc.html">Calculando o IMC</a></li>
+            
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+            
+            <li><a href="contato.html">Contato</a></li>
+
+
+
+        </ul>
+    </nav>
+
+    <img src="img/imc.png" alt="style">
+
+
+    <header>
+        <h3>Descubra o seu IMC ( Índice de Massa Corporal ) :</h3>
+    </header>
+
+    </br></br>
+    </br></br>
+
+
+    <div class="form">
+          <label for="altura">Altura (m):</label>
+          <input type="number" step="0.01" id="altura" placeholder="0.00">
+          <br>
+          <label for="peso">Peso (kg):</label>
+          <input type="number" step="0.1" id="peso" placeholder="0.0">
+          <br>
+          <button id="calcular" onclick="calcularImc()">Calcular</button>
+        </div>
+    </br>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+
+    <img src="img/classImc.png" alt="style">
+
+
+
+    <footer class="main_footer container">
+    
+        <div class="content">
+    
+            <div class="colfooter">
+                
+                <h3 class="titleFooter"> Menu</h3>
+                
+                <ul>
+                
+                    <li><a href="index.html" title="inicio">Página Inicial</a></li>
+                    <li><a href="receitas.html" title="Receitas">Receitas</a></li>
+                    <li><a href="imc.html" title="Calculando o IMC">Calculando o IMC</a></li>
+                    <li><a href="curiosidades.html" title="Curiosidades">Curiosidades</a></li>
+                    <li><a href="contato.html" title="Contato">Contato</a></li>
+                
+                </ul>
+    
+            </div>      
+    
+            <div class="colfooter">
+               
+               <h3 class="titleFooter"> Contato</h3>
+
+            
+               <p><i class="icon icon-mail"></i> healthyHabit@gmail.com</p>
+               <p><i class="icon icon-phone"></i> 47 99261-0792</p>
+               <p><i class="icon icon-whatsapp"></i> 47 3354-4854</p>
+    
+            </div>
+    
+            
+        
+        </div>
+    
+        <div class="main_footer_copy">
+            
+            <p class="m-b-footer"> © HealthyHabits - 2023, todos os direitos reservados.</p> 
+            <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: <a title="Seu nome">Giovana Dias</a></p>
+        
+        </div>
+    
+    </footer>
+
+
+</body>
+
+</html>
